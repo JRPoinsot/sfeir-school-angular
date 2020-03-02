@@ -74,6 +74,13 @@
             "scripts": [],
             "styles": ["src/styles.css"],
             "assets": ["src/assets", "src/favicon.ico"]
+          },
+          "configurations": {
+            "ci": {
+              "watch": false,
+              "progress": false,
+              "browsers": "ChromeHeadlessCI"
+            }
           }
         },
         "lint": {
